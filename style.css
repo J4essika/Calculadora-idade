@@ -3,20 +3,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
 }
+
 body
 {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background:rgb(154, 63, 63);
+    background:linear-gradient(to bottom,purple,yellowgreen);
 }
 .container
 {
     width: 40%;
-    min-width: 450px;
+    min-width: 460px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +35,7 @@ body
     background-color:rgb(255, 238, 238);
     padding: 30px 25px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.434);
-    border-radius: 8px;
+    border-radius:8px; 
     margin-bottom: 50px;
 }
 .inputs-wrapper input,
@@ -74,7 +76,7 @@ body
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
     display: grid;
     place-items: center;
-    border-radius: 50%;
+    border-radius: 20%;
     padding: 20px 0;
 }
 .output div span
